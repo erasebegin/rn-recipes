@@ -46,7 +46,7 @@ export const RECIPES = [
     true
   ),
 
-  new Meal(
+  new Recipe(
     "m2",
     ["c2"],
     "Toast Hawaii",
@@ -72,7 +72,7 @@ export const RECIPES = [
     false
   ),
 
-  new Meal(
+  new Recipe(
     "m3",
     ["c3"],
     "Classic Hamburger",
@@ -101,7 +101,7 @@ export const RECIPES = [
     true
   ),
 
-  new Meal(
+  new Recipe(
     "m4",
     ["c4"],
     "Wiener Schnitzel",
@@ -134,7 +134,7 @@ export const RECIPES = [
     false
   ),
 
-  new Meal(
+  new Recipe(
     "m5",
     ["c2", "c5", "c10"],
     "Salad with Smoked Salmon",
@@ -166,7 +166,7 @@ export const RECIPES = [
     true
   ),
 
-  new Meal(
+  new Recipe(
     "m6",
     ["c6", "c10"],
     "Delicious Orange Mousse",
@@ -199,7 +199,7 @@ export const RECIPES = [
     false
   ),
 
-  new Meal(
+  new Recipe(
     "m7",
     ["c7"],
     "Pancakes",
@@ -228,7 +228,7 @@ export const RECIPES = [
     false
   ),
 
-  new Meal(
+  new Recipe(
     "m8",
     ["c8"],
     "Creamy Indian Chicken Curry",
@@ -259,7 +259,7 @@ export const RECIPES = [
     true
   ),
 
-  new Meal(
+  new Recipe(
     "m9",
     ["c9"],
     "Chocolate Souffle",
@@ -305,7 +305,7 @@ export const RECIPES = [
     true,
     false
   ),
-  new Meal(
+  new Recipe(
     "m10",
     ["c2", "c5", "c10"],
     "Asparagus Salad with Cherry Tomatoes",

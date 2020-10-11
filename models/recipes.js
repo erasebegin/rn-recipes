@@ -1,4 +1,4 @@
-export class Recipe {
+export default class Recipe {
   constructor(
     id,
     catIds,
@@ -9,7 +9,7 @@ export class Recipe {
     duration,
     ingredients,
     steps,
-    isGluten,
+    isGlutenFree,
     isVegan,
     isVegetarian,
     isLactoseFree
@@ -23,7 +23,7 @@ export class Recipe {
     this.duration = duration;
     this.ingredients = ingredients;
     this.steps = steps;
-    this.isGluten = isGluten;
+    this.isGlutenFree = isGlutenFree;
     this.isVegan = isVegan;
     this.isVegetarian = isVegetarian;
     this.isLactoseFree = isLactoseFree;

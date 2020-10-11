@@ -5,7 +5,7 @@ import { AppLoading } from "expo";
 import { NavigationContainer } from "@react-navigation/native";
 import { enableScreens } from "react-native-screens";
 
-import RecipeNavigator from "./navigation/RecipeNavigator";
+import RecipeTabNavigator from "./navigation/RecipeNavigator";
 
 enableScreens(); //adding this library and instantiating here improves performance on both iOS and Android ✨
 
@@ -27,7 +27,7 @@ export default function App() {
   }
   return (
     <NavigationContainer>
-      <RecipeNavigator />
+      <RecipeTabNavigator />
     </NavigationContainer>
   );
 }
